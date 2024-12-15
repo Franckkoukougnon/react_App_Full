@@ -1,0 +1,17 @@
+{
+  "name": "back_react_app",
+  "version": "1.0.0",
+  "description": "back end de mon application react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "author": "Franck Koukougnon",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
