@@ -7,7 +7,7 @@ const allClasses = async (req, res) => {
     const classes = await Classe.findAll();
     if (classes.length === 0) {
       return res.status(404).json({
-        error: "Aucune classe trouvée",
+        error: "Aucune classe trouvée dans la base de données",
       });
     }
 
