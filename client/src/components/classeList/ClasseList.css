@@ -1,0 +1,73 @@
+/* src/components/Classe/Classe.css */
+
+.classe-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.classe-container h2 {
+  color: #333;
+  text-align: center;
+}
+
+.classe-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.classe-container li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classe-edit {
+  display: flex;
+  gap: 10px;
+}
+
+.classe-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.classe-save-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.classe-cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.classe-edit-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.classe-edit-button:hover,
+.classe-save-button:hover,
+.classe-cancel-button:hover {
+  opacity: 0.8;
+}
